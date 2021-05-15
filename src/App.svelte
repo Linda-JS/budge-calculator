@@ -9,7 +9,7 @@
   function removeExpense(id) {
     expenses = expenses.filter((item) => item.id !== id);
   }
-  setContext("remove, removeExpense")
+  setContext("remove", removeExpense);
 </script>
 
 <!-- <style></style> -->
