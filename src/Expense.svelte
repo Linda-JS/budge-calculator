@@ -14,7 +14,7 @@
 <article class="single-expense">
   <div class="expense-info">
     <h2>
-      {name}<button class="amount-btn" on:click|once={toggleAmount}>
+      {name}<button class="amount-btn" on:click={toggleAmount}>
         <i class="fas fa-caret-down" />
       </button>
     </h2>
