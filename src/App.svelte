@@ -1,5 +1,7 @@
 <script>
   import { setContext, onMount, afterUpdate } from "svelte";
+  // import Github from "./Github.svelte";
+  // import GithubAwait from "./GithubAwait.svelte";
   import Navbar from "./Navbar.svelte";
   import ExpensesList from "./ExpensesList.svelte";
   import Totals from "./Totals.svelte";
@@ -72,6 +74,8 @@
 
 <Navbar {showForm} />
 <main class="content">
+  <!-- <Github /> -->
+  <!-- <GithubAwait /> -->
   {#if isFormOpen}
     <Modal>
       <ExpenseForm
